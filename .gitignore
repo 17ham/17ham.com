@@ -23,3 +23,42 @@ go.work.sum
 
 # env file
 .env
+
+
+# Hugo-generated files
+/public/
+/resources/
+/assets/js/bundled/
+/hugo_stats.json
+
+# Local Hugo server temp files
+/.hugo_build.lock
+
+# Themes (if using submodules)
+*/themes/*/*
+!*/themes/**/LICENSE
+!*/themes/**/README.md
+!*/themes/**/.gitignore
+
+# Build artifacts
+*.log
+*.bak
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor & IDE files
+*.sublime-project
+*.sublime-workspace
+.idea/
+.vscode/
+*.code-workspace
+
+# Node dependencies (if using NPM or Yarn)
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
